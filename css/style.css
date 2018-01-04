@@ -1,0 +1,81 @@
+
+body{
+background: linear-gradient(black, darkgray);
+background-repeat:no-repeat;
+height:100%;
+padding-bottom:200px;
+}
+
+h2{
+text-align:center;
+
+}
+
+.container{
+margin-left: 10%;
+margin-right:10%;
+background:radial-gradient(rgb(3, 48, 56), darkblue);
+padding-bottom: 400px;
+border: 5px double black;
+}
+
+.rainbow {
+    /* Chrome, Safari, Opera */
+   -webkit-animation: rainbow 1s infinite; 
+   
+   /* Internet Explorer */
+   -ms-animation: rainbow 1s infinite;
+   
+   /* Standar Syntax */
+   animation: rainbow 1s infinite; 
+ }
+ 
+ /* Chrome, Safari, Opera */
+ @-webkit-keyframes rainbow{
+     20%{color: red;}
+     40%{color: yellow;}
+     60%{color: green;}
+     80%{color: blue;}
+     100%{color: orange;}	
+ }
+ /* Internet Explorer */
+ @-ms-keyframes rainbow{
+     20%{color: red;}
+     40%{color: yellow;}
+     60%{color: green;}
+     80%{color: blue;}
+     100%{color: orange;}	
+ }
+ 
+ /* Standar Syntax */
+ @keyframes rainbow{
+     20%{color: red;}
+     40%{color: yellow;}
+     60%{color: green;}
+     80%{color: blue;}
+     100%{color: orange;}	
+ }
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
