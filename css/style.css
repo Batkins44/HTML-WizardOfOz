@@ -1,4 +1,6 @@
 
+
+
 body{
 background: linear-gradient(black, darkgray);
 background-repeat:no-repeat;
@@ -8,9 +10,20 @@ padding-bottom:200px;
 
 h2{
 text-align:center;
+font-family: 'Bellefair', serif;
 
 }
 
+a {
+    font-family: 'Oswald', sans-serif;
+
+}
+
+aside {
+float:left;
+margin-left:30px;
+
+}
 .container{
 margin-left: 10%;
 margin-right:10%;
@@ -19,6 +32,16 @@ padding-bottom: 400px;
 border: 5px double black;
 }
 
+main{
+color:lightblue;
+font-family: 'Bellefair', serif;
+}
+
+section{
+width:50%;
+float:left;
+
+}
 .rainbow {
     /* Chrome, Safari, Opera */
    -webkit-animation: rainbow 1s infinite; 
