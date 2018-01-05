@@ -32,7 +32,7 @@ h1{
 margin-left: 10%;
 margin-right:10%;
 background:radial-gradient(rgb(3, 48, 56), darkblue);
-padding-bottom: 50px;
+
 border: 5px double black;
 }
 
@@ -55,6 +55,9 @@ float:left;
     style:block;
     float:left;
     position:relative;
+    border:5px double gold;
+    padding:10px;
+    
 }
 .right-column{
 float:right;
@@ -63,6 +66,8 @@ text-align:left;
 width:40%;
 position:relative;
 style:block;
+border:5px double gold;
+padding:10px;
 
 
 }
