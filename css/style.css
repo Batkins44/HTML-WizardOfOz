@@ -14,11 +14,19 @@ text-align:center;
 .container{
 margin-left: 10%;
 margin-right:10%;
-background:radial-gradient(rgb(3, 48, 56), rgb(1, 1, 85));
+background:radial-gradient(rgb(3, 48, 56), darkblue);
 padding-bottom: 400px;
 border: 5px double black;
 }
 
+main{
+color:lightblue;
+}
+
+section{
+width:50%;
+
+}
 .rainbow {
     /* Chrome, Safari, Opera */
    -webkit-animation: rainbow 1s infinite; 
