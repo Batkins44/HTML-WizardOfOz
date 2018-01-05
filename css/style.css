@@ -14,7 +14,7 @@ text-align:center;
 .container{
 margin-left: 10%;
 margin-right:10%;
-background:radial-gradient(rgb(3, 48, 56), darkblue);
+background:radial-gradient(rgb(3, 48, 56), rgb(1, 1, 85));
 padding-bottom: 400px;
 border: 5px double black;
 }
