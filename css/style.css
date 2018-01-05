@@ -41,8 +41,8 @@ color:lightblue;
 font-family: 'Bellefair', serif;
 style:block;
 height:100%;
-overflow: auto;
-padding-bottom: 180px;
+padding-bottom: 222px;
+margin-bottom:50px;
 }
 
 section{
@@ -68,6 +68,7 @@ position:relative;
 style:block;
 border:5px double gold;
 padding:10px;
+margin-bottom:50px;
 
 
 }
