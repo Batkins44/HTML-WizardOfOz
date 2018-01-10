@@ -5,37 +5,37 @@ body{
     padding-bottom:10px;
     font-family: 'Bellefair', serif;
     }
-    
-    
-    footer {
-    
-        /* negative value of footer height */
-        height: 50px;
-        clear: both;
-        background-color: steelblue;
-        text-align:center;
-      }
-    
-    
-    a {
-        font-family: 'Oswald', sans-serif;
-    
-    }
-    
-    h1{
-        style:block;
-        padding-top:-300px;
-    }
-    
-    .container{
+
+
+footer {
+
+    /* negative value of footer height */
+    height: 50px;
+    clear: both;
+    background-color: steelblue;
+    text-align:center;
+}
+
+
+a {
+    font-family: 'Oswald', sans-serif;
+
+}
+
+h1{
+    style:block;
+    padding-top:-300px;
+}
+
+.container{
     margin-left: 10%;
     margin-right:10%;
     background:radial-gradient(rgb(3, 48, 56), darkblue);
-    
+
     border: 5px double black;
-    }
-    
-    main{
+}
+
+main{
     color:lightblue;
     font-family: 'Bellefair', serif;
     style:block;
@@ -43,22 +43,19 @@ body{
     padding-bottom: 222px;
     margin-bottom:50px;
     }
-    
-    section{
+
+
+
+.left-column{
+    width:50%;
+    style:block;
     float:left;
+    position:relative;
+    border:5px double gold;
+    padding:10px;
     
-    }
-    
-    .left-column{
-        width:50%;
-        style:block;
-        float:left;
-        position:relative;
-        border:5px double gold;
-        padding:10px;
-        
-    }
-    .right-column{
+}
+.right-column{
     float:right;
     margin-left:30px;
     text-align:left;
@@ -68,67 +65,67 @@ body{
     border:5px double gold;
     padding:10px;
     margin-bottom:50px;
-    
-    
-    }
-    .rainbow {
-    text-align:center;
-        /* Chrome, Safari, Opera */
-       -webkit-animation: rainbow 1s infinite; 
-       
-       /* Internet Explorer */
-       -ms-animation: rainbow 1s infinite;
-       
-       /* Standar Syntax */
-       animation: rainbow 1s infinite; 
-     }
-     
-     /* Chrome, Safari, Opera */
-     @-webkit-keyframes rainbow{
-         20%{color: red;}
-         40%{color: yellow;}
-         60%{color: green;}
-         80%{color: blue;}
-         100%{color: orange;}	
-     }
-     /* Internet Explorer */
-     @-ms-keyframes rainbow{
-         20%{color: red;}
-         40%{color: yellow;}
-         60%{color: green;}
-         80%{color: blue;}
-         100%{color: orange;}	
-     }
-     
-     /* Standar Syntax */
-     @keyframes rainbow{
-         20%{color: red;}
-         40%{color: yellow;}
-         60%{color: green;}
-         80%{color: blue;}
-         100%{color: orange;}	
-     }
-    
-     ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
-    }
-    
-    li {
-        float: left;
-    }
-    
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-    
-    li a:hover {
-        background-color: #111;
-    }
+
+
+}
+.rainbow {
+text-align:center;
+    /* Chrome, Safari, Opera */
+-webkit-animation: rainbow 1s infinite; 
+
+/* Internet Explorer */
+-ms-animation: rainbow 1s infinite;
+
+/* Standar Syntax */
+animation: rainbow 1s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+    20%{color: red;}
+    40%{color: yellow;}
+    60%{color: green;}
+    80%{color: blue;}
+    100%{color: orange;}	
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+    20%{color: red;}
+    40%{color: yellow;}
+    60%{color: green;}
+    80%{color: blue;}
+    100%{color: orange;}	
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+    20%{color: red;}
+    40%{color: yellow;}
+    60%{color: green;}
+    80%{color: blue;}
+    100%{color: orange;}	
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
